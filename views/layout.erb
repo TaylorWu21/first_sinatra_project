@@ -1,0 +1,31 @@
+<html>
+  <head>
+    <title>Taylor Wu's Website</title>
+    <link rel='stylesheet' type='text/css' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <header class="background banner">
+      <div class="bannertitle">
+        <h1>Welcome to My Website!</h1>
+      </div>
+    </header>
+  <nav>
+    <ul>
+      <li><a href="index">Home</a></li>
+      <li><a href="resume">Resume</a></li>
+      <li><a href="contact">Contact</a></li>
+    </ul>
+  </nav>
+    <section class="content">
+      <img src="/image/Snowboard.jpg" height="400px" width="20%" id= "image">
+      <%= yield %>
+    </section>
+    <footer class="footer">
+      <a href="https://www.linkedin.com/in/taylor-wu-89a6b7a3">
+        <i class="fa fa-linkedin-square fa-5x"></i>
+      </a>
+      <a href="mailto:taylorwu21@gmail.com"><i class="fa fa-envelope-o fa-5x"></i>
+      </a>
+    </footer>
+  </body>
+</html>
